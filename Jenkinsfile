@@ -1,6 +1,6 @@
 pipeline {
     agent { label 'Openmrs'}
-    trigger {
+    triggers {
         pollSCM ('* * * * *')
     }
     parameters {
